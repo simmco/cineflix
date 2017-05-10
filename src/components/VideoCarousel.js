@@ -75,10 +75,10 @@ class VideoCarousel extends Component {
     };
   }
   handleOpen = id => {
-    this.setState({ extend: id, padding: "20px" });
+    this.setState({ extend: id});
   };
   handleClose = () => {
-    this.setState({ extend: "", padding: "50px" });
+    this.setState({ extend: "" });
   };
   render() {
     const { movies, categorie } = this.props;
@@ -88,14 +88,14 @@ class VideoCarousel extends Component {
       }
     });
     return (
-      <div>
+      <div style={{margin: '2rem 0'}}>
         <h3 style={{margin: 0}}>{categorie}</h3>
         <Carousel
           style={styles.outside}
           className="VideoList"
-          slidesToShow={5}
+          slidesToShow={4}
           wrapAround={true}
-          framePadding={"30px 0px " + this.state.padding + " 50px"}
+          framePadding={"50px 0px 0px 50px"}
           decorators={Decorators}
           frameOverflow="visible"
         >

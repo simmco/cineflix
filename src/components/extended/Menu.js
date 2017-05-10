@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 let styles = {
   container: {
     display: 'flex',
-    marginTop: 'auto',
+    marginTop: '-1.7rem',
     justifyContent: 'center',
-    zIndex: 200,
-    textShadow: '1px 1px 2px black'
+    zIndex: 20000,
+    textShadow: '1px 1px 2px black',
+    paddingLeft: '1.6rem'
   },
   menuButton: {
     paddingRight: '1rem',
