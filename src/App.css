@@ -1,0 +1,49 @@
+.App{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #222;
+  color: red;
+  display: flex;
+  padding-left: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/*****TOP-AREA*****/
+
+.top-picture {
+  height: 70vh;
+  background-color: #3f3f3f;
+  margin: 0 0 2rem 0;
+  display: flex;
+}
+
+.VideoList {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video {
+  height: 130px;
+  width: 90%;
+  border: 1px solid black;
+}
+
+.video:hover {
+  height: 143px;
+  width: 110%;
+}
+
+.video-img {
+  top:0;
+  left:0;
+  position: relative;
+  max-width: 100%
+}
