@@ -27,7 +27,7 @@ var Decorators = [
     }),
     position: "CenterLeft",
     style: {
-      paddingRight: '20px'
+      paddingRight: "20px"
     }
   },
   {
@@ -53,7 +53,7 @@ var Decorators = [
     }),
     position: "CenterRight",
     style: {
-      paddingLeft: '20px'
+      paddingLeft: "20px"
     }
   }
 ];
@@ -75,7 +75,7 @@ class VideoCarousel extends Component {
     };
   }
   handleOpen = id => {
-    this.setState({ extend: id});
+    this.setState({ extend: id });
   };
   handleClose = () => {
     this.setState({ extend: "" });
@@ -88,8 +88,8 @@ class VideoCarousel extends Component {
       }
     });
     return (
-      <div style={{margin: '2rem 0'}}>
-        <h3 style={{margin: 0}}>{categorie}</h3>
+      <div style={{ margin: "2rem 0" }}>
+        <h3 style={{ margin: 0 }}>{categorie}</h3>
         <Carousel
           style={styles.outside}
           className="VideoList"

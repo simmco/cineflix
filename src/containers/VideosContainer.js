@@ -57,7 +57,6 @@ function mapStateToProps(state) {
 
 export default connect(mapStateToProps, actions)(VideoList);
 
-
 const Container = styled.div`
   padding: 5px 20px;
-`
+`;

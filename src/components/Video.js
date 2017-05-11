@@ -69,7 +69,7 @@ const VideoImage = styled.img`
       &:hover {
         height: 100%;
         width: 100%;
-        margin: -1rem 1.2rem 1rem -1.2rem;
+        margin: -1rem 1.2rem 1rem -2rem;
         transition: all 0.2s;
         border: 1px solid white;
       }

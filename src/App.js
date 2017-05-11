@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
-import Top from './components/Top';
-import VideosContainer from './containers/VideosContainer';
+import Top from "./components/Top";
+import VideosContainer from "./containers/VideosContainer";
 
 class App extends Component {
   render() {
